@@ -3,8 +3,8 @@ export default function About () {
         <div class="w-full flex px-8 h-96 justify-center items-center flex-col gap-8 bg-cover bg-center bg-no-repeat rounded-xl text-gray-500"
         >
         <h1 class="text-4xl max-w-lg font-bold text-blue-300"> About me </h1>
-        <p class="mb-3 font-light text-gray-500 dark:text-gray-400">
-        I have a strong passion for creating innovative solutions that make a difference. My love for web development began when I created my first website using HTML and CSS, and I haven't stopped since.
+        <p class="mb-3 font-normal text-gray-400 dark:text-gray-400">
+        Welcome to my portfolio website where you can explore my work, skills, and projects. From developing web applications to implementing robust database solutions I have a strong passion for creating innovative solutions that make a difference. My love for web development began when I created my first website using HTML and CSS, and I haven't stopped since.
 
         In addition to my web development experience, I have a background in physics, which has given me a unique perspective on problem-solving and critical thinking.
 
