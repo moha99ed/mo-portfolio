@@ -13,6 +13,7 @@ export default function Hero() {
         <p class="text-4xl max-w-lg font-bold text-blue-300">
           I am a Fullstack engineer
         </p>
+        <p class="text-lg max-w-lg text-gray-300">Welcome to my portfolio website where you can explore my work, skills, and projects. From developing web applications to implementing robust database solutions, I have a strong passion for building robust software that helps solve real-world problems. Come take a look at what I've accomplished so far and let's discuss how I can help bring your next project to life.</p>
       </div>
     </div>
   );
