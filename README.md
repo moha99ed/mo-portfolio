@@ -1,11 +1,5 @@
-# fresh project
+Hello There!
+this is my personal portfolio 
+Please take a look
 
-### Usage
-
-Start the project:
-
-```
-deno task start
-```
-
-This will watch the project directory and restart as necessary.
+https://mrsebbagh.deno.dev/
