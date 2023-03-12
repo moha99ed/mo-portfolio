@@ -8,8 +8,8 @@ export const projects = [
 },
 {
     title: "GameBetter",
-    subtitle: "Create SMART Goals",
-    description: "S.M.A.R.T | Designed for high school teachers to create SMART Goals for their classes",
+    subtitle: "Improve your cognitive skills",
+    description: "GameBetter | Online game board to improve cognitive function",
     image: "/gamebetter.gif",
     link: "https://github.com/ARMDK/pfaIteration"
 },
