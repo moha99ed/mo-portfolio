@@ -9,7 +9,7 @@ export default function Hero() {
   >
     <div class="sm:(mt-14 mb-14) mt-12 mb-4 flex flex-col items-center gap-y-5 gap-x-10 md:flex-row">
     <object
-        class="w-32 rounded-full shadow-lg"
+        class="w-32 h-32 rounded-full shadow-lg"
         data="M.svg"
         type="image/svg+xml"
       />

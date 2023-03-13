@@ -2,7 +2,7 @@ import { experience } from "../components/data.tsx"
 export default function Experience () {
     return (
         <div>
-            <div class="p-8">
+            <div class="p-8" id="experience">
                 <div class="flex felx-col items-center justify-center">
                 </div>
                 <h1 class="text-4xl font-bold text-blue-300 text-center mt-6">
