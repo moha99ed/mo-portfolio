@@ -65,21 +65,22 @@ export const skills = [
     {
       quote:
         "Mohammed is a dedicated engineer with the deep competence required to see the bigger picture. While working together, I noticed his penchant for articulating problems and how he could tie together the entire abstract structure of a project to pinpoint the exact nature and location of a bug. He is not only an excellent developer, he is also an amazing person. His calm kindness is the living example of empathetic engineering.",
-      image: "",
+      image: "kate.jpeg",
       name: "Katharine Angelopoulos",
+      role:"Software Engineer",
       company: "Denosoar",
     },
     {
       quote:
         "Mohammed is an extremely passionate engineer who works very well in team environments. He is quick to learn difficult engineering concepts, and then easily applies them to his own work. He enjoys tackling and solving engineering problems with his peers, and anybody would be lucky to have Mohammed as an asset on their engineering team.",
-      image: "",
+      image: "ethan.jpeg",
       name: "Ethan Liu",
       company: "Denosoar",
     },
     {
       quote:
         "Mohammed has a gift for coming up with creative ideas while being able to technically communicate his creativity in a way his peers will understand. He knows the ins and outs of a codebase and displays that knowledge when tracking errors. Mohammed shows compassion towards his peers and any team will be lucky to have him.",
-      image: "",
+      image: "david.jpeg",
       name: "David Russo",
       company: "Denosoar",
     },
