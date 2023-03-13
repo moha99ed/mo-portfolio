@@ -1,0 +1,22 @@
+.logo {
+    width: 120px;
+    height: 60px;
+    position: relative;
+  }
+  
+  .letter-m {
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .letter-s {
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  

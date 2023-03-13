@@ -6,6 +6,7 @@ import Footer from "../components/Footer.tsx";
 import Experience from "../islands/Experience.tsx";
 import Skills from "../components/Skills.tsx";
 import Projects from "../islands/Projects.tsx";
+import Resume from "./Resume.tsx";
 export default function Home() {
   console.log("hello from Home Export index.tsx");
   return (
