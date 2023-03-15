@@ -2,10 +2,10 @@ import { projects } from "../components/data.tsx";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-blue-300 body-font">
+    <section id="projects" className="text-gray-400 bg-blue-50 opacity-90 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-80">
         <div className="flex flex-col w-full mb-20">
-          <h1 className="text-white mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+          <h1 className="text-blue-400 mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px] opacity-100">
             My Open Source Projects
           </h1>
 

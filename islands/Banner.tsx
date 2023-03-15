@@ -17,7 +17,7 @@ export default function Hero() {
        />
        <object
          id="mo"
-         class="w-32 h-32 rounded-full"
+         class="w-64 h-64 rounded-full"
          data="M.svg"
          type="image/svg+xml"
        />
