@@ -13,9 +13,9 @@ export default function Header() {
 
 <nav class="bg-blue-50 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
   <div class="container flex flex-wrap items-center justify-between mx-auto">
-  <div class="bg-blue-50 rounded-full w-16 h-16 flex justify-center items-center text-indigo-500 shadow-2xl">
+  <div class="bg-blue-50 rounded-full w-16 h-16 flex justify-center items-center text-indigo-500">
     <a href="/" class="flex items-center">
-    <div class="text-4xl font-bold text-blue-500">MS</div>
+    <div class="text-4xl font-bold text-blue-500" id="ms">MS</div>
 
       <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
     </a>
