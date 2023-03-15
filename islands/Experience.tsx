@@ -5,7 +5,7 @@ export default function Experience () {
             <div class="p-8" id="experience">
                 <div class="flex felx-col items-center justify-center">
                 </div>
-                <h1 class="text-4xl font-bold text-blue-300 text-center mt-6">
+                <h1 class="text-blue-400 mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px] text-center mt-6">
                     Experience
                 </h1>
 

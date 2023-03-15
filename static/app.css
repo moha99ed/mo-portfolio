@@ -3,3 +3,27 @@
     background: url('./zelij.jpeg') repeat;
     backdrop-filter: blur(1px);
 }
+#mainRunner {
+  position: relative;
+  width: 80%;
+  max-width: 400px;
+}
+#mo {
+  position: absolute;
+  filter: grayscale(100%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#blob {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+

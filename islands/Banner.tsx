@@ -4,29 +4,38 @@ export default function Hero() {
 
 
   return (
-    <div
-    class="flex w-full flex px-8 h-96 justify-center items-center flex-col gap-8 bg-cover bg-center bg-no-repeat rounded-xl text-gray-500"
+<section class="bg-blue-10">
+  <div
+    class="grid mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center "
   >
-    <div class="sm:(mt-14 mb-14) mt-12 mb-4 flex flex-col items-center gap-y-5 gap-x-10 md:flex-row">
-    <object
-        class="w-32 h-32 rounded-full shadow-lg"
-        data="M.svg"
-        type="image/svg+xml"
-      />
-      <div class="space-y-4 text-left">
-          <h1 class="mb-3 font-medium text-gray-500 dark:text-gray-400">Hello, My name is</h1>
-          <p class="text-4xl max-w-lg font-bold text-blue-400">
-          Mo Sebbagh.
-          </p>
-          <p class="text-4xl max-w-lg font-bold text-blue-300">
-          I am a Fullstack engineer
-          </p>
-      </div>
+    <div class="hidden lg:mt-0 lg:col-span-5 lg:flex" id="mainRunner">
+     <object
+         id="blob"
+         class="w-32 h-32"
+         data="blob.svg"
+         type="image/svg+xml"
+       />
+       <object
+         id="mo"
+         class="w-32 h-32 rounded-full"
+         data="M.svg"
+         type="image/svg+xml"
+       />
+     </div>
+    <div class="mx-auto max-w-xl text-left">
+      <h1 class="text-3xl font-extrabold sm:text-5xl">
+      Hello, My name is 
+        <h2 class="font-extrabold text-blue-700 sm:block">
+        Mo Sebbagh.
+        </h2>
+      </h1>
+
+      <p class="mt-4 sm:text-xl sm:leading-relaxed text-blue-400">
+        I am a FullStack Engineer
+      </p>
     </div>
   </div>
-
-
-
+</section>
 
   );
 }

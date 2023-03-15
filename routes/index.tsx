@@ -4,7 +4,7 @@ import Hero from "../islands/Banner.tsx";
 import About from "../islands/About.tsx"
 import Footer from "../components/Footer.tsx";
 import Experience from "../islands/Experience.tsx";
-import Skills from "../components/Skills.tsx";
+import Skills from "../islands/Skills.tsx";
 import Projects from "../islands/Projects.tsx";
 import Contact from "../islands/Contact.tsx";
 import Testimonials from "../islands/Testimonials.tsx";
@@ -14,8 +14,8 @@ export default function Home() {
     <div id="home" class="p-8 ">            
       <Header />
       <Hero />
-      <Skills />
       <About />
+      <Skills />
       <Experience />
       <Projects />
       <Testimonials />

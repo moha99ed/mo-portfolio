@@ -5,7 +5,7 @@ export default function Testimonials () {
             <div class="p-8" id="testimonials">
                 <div class="flex felx-col items-center justify-center">
                 </div>
-                <h1 class="text-4xl font-bold text-blue-300 text-center mt-6">
+                <h1 class="text-blue-400 mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px] text-center mt-6">
                  Testimonials
                 </h1>
 
@@ -32,7 +32,7 @@ export default function Testimonials () {
                 <h2 class="uppercase mt-6 text-gray-600 font-medium mb-3">
                 {testimonials.name}
                 </h2>
-                <a class="text-blue-500 flex items-center hover:text-indigo-600" href="/" target="_blank" rel="noopener noreferrer">
+                <a class="text-blue-500 flex items-center hover:text-indigo-600" href="https://denosoar.deno.dev/about" target="_blank" rel="noopener noreferrer">
                 SWE @ {testimonials.company} 
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
