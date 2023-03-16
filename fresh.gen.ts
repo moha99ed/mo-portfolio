@@ -11,9 +11,11 @@ import * as $$0 from "./islands/About.tsx";
 import * as $$1 from "./islands/Banner.tsx";
 import * as $$2 from "./islands/Contact.tsx";
 import * as $$3 from "./islands/Experience.tsx";
-import * as $$4 from "./islands/Projects.tsx";
-import * as $$5 from "./islands/Skills.tsx";
-import * as $$6 from "./islands/Testimonials.tsx";
+import * as $$4 from "./islands/Header.tsx";
+import * as $$5 from "./islands/MobileHeader.tsx";
+import * as $$6 from "./islands/Projects.tsx";
+import * as $$7 from "./islands/Skills.tsx";
+import * as $$8 from "./islands/Testimonials.tsx";
 
 const manifest = {
   routes: {
@@ -27,9 +29,11 @@ const manifest = {
     "./islands/Banner.tsx": $$1,
     "./islands/Contact.tsx": $$2,
     "./islands/Experience.tsx": $$3,
-    "./islands/Projects.tsx": $$4,
-    "./islands/Skills.tsx": $$5,
-    "./islands/Testimonials.tsx": $$6,
+    "./islands/Header.tsx": $$4,
+    "./islands/MobileHeader.tsx": $$5,
+    "./islands/Projects.tsx": $$6,
+    "./islands/Skills.tsx": $$7,
+    "./islands/Testimonials.tsx": $$8,
   },
   baseUrl: import.meta.url,
   config,
