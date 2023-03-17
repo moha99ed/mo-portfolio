@@ -12,7 +12,7 @@ export default function MobileHeader(props: Omit<HeaderProps, "sticky">) {
           {props.active !== "/" && (
           <div class="w-16 h-16 flex justify-center items-center text-indigo-500">
           <a href="/" class="flex items-center">
-          <div class="text-4xl font-bold text-blue-500" id="ms">MS</div>
+          <div class="text-4xl font-bold text-blue-500 hover:(text-yellow-400 dark:text-gray-100)" id="ms">MS</div>
 
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
           </a>
@@ -21,7 +21,7 @@ export default function MobileHeader(props: Omit<HeaderProps, "sticky">) {
         </div>
         <div class="flex min-h-screen items-center justify-center">
           <div
-            class="group relative my-2 mx-auto h-6 w-6 cursor-pointer"
+            class="group relative my-2 mx-auto h-6 w-6 cursor-pointer border rounded text-blue-600 hover:bg-yellow-400 focus:outline-none"
             onClick={() => (checked.value = !checked.value)}
           >
             <svg
@@ -63,7 +63,7 @@ export default function MobileHeader(props: Omit<HeaderProps, "sticky">) {
                   <a
                     href={menu.href}
                     class={
-                      "hover:(text-blue-600 dark:text-gray-100) border-gray-500 px-2 dark:border-gray-300" +
+                      "hover:(text-yellow-400 dark:text-gray-100) border-gray-500 px-2 dark:border-gray-300" +
                       (menu.href === props.active ? " border-l-4" : "")
                     }
                     onClick={() => {
