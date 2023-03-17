@@ -5,7 +5,7 @@ export default function MobileHeader(props: Omit<HeaderProps, "sticky">) {
   const checked = useSignal(false);
   return (
     <div
-      class={`relative block text-lg font-bold text-gray-700 dark:text-gray-300 md:hidden`}
+      class={`relative block text-lg font-bold text-gray-700 dark:text-gray-300 lg:hidden`}
     >
       <div class="flex h-12 flex-row items-center justify-between gap-6 px-4">
         <div>

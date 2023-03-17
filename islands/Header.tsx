@@ -3,7 +3,7 @@ import { menu } from "../components/data.tsx"
 
 function LargeHeader(props: Omit<HeaderProps, "sticky">) {
   return (
-    <div class="text-md hidden h-14 flex-row flex-wrap gap-6 px-4 font-semibold text-gray-500 dark:text-gray-300 md:flex">
+    <div class="text-md hidden h-14 flex-row flex-wrap gap-6 px-4 font-semibold text-gray-500 dark:text-gray-300 lg:flex">
       <ul class="flex flex-1 items-center gap-6">
         {props.active !== "/" && (
           <div class="w-16 h-16 flex justify-center items-center text-indigo-500">
@@ -16,7 +16,7 @@ function LargeHeader(props: Omit<HeaderProps, "sticky">) {
         )}
         {menu &&
           menu.map((menu) => (
-            <li class="flex flex-col p-1 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-blue-50 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li class="flex flex-col text-sm">
               <a
                 href={menu.href}
                 class={
