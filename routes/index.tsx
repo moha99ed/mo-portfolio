@@ -12,13 +12,13 @@ export default function Home() {
   return (
     <div id="home" class="p-8 ">            
       <Header />
-      <Hero />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Testimonials />
-      <Contact />
+      <Hero id="hero"/>
+      <About id="about"/>
+      <Skills id="skills"/>
+      <Experience id="experience"/>
+      <Projects id="projects"/>
+      <Testimonials id="testimonials"/>
+      <Contact id="contact"/>
       <Filler />
       <Footer />
     </div>

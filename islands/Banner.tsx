@@ -1,8 +1,6 @@
 
 
 export default function Hero() {
-
-
   return (
 <section class="bg-blue-10">
   <div
@@ -12,15 +10,10 @@ export default function Hero() {
      <object
          id="blob"
          class="w-32 h-32"
-         data="blob.svg"
+         data="Animated.svg"
          type="image/svg+xml"
        />
-       <object
-         id="mo"
-         class="w-64 h-64 rounded-full"
-         data="M.svg"
-         type="image/svg+xml"
-       />
+
      </div>
     <div class="mx-auto max-w-xl text-left">
       <h1 class="text-3xl font-extrabold sm:text-5xl">

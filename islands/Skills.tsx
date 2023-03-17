@@ -1,6 +1,7 @@
 import { skills } from "../components/data.tsx";
 
 export default function Skills() {
+  
   return (
 
               <section>

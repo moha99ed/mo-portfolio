@@ -8,7 +8,7 @@ function LargeHeader(props: Omit<HeaderProps, "sticky">) {
         {props.active !== "/" && (
           <div class="w-16 h-16 flex justify-center items-center text-indigo-500">
           <a href="/" class="flex items-center">
-          <div class="text-4xl font-bold text-blue-500" id="ms">MS</div>
+          <div class="text-4xl font-bold text-blue-500 hover:(text-yellow-400 dark:text-gray-100)" id="ms">MS</div>
 
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
           </a>
@@ -20,7 +20,7 @@ function LargeHeader(props: Omit<HeaderProps, "sticky">) {
               <a
                 href={menu.href}
                 class={
-                  "hover:(text-blue-600 dark:text-gray-100) border-gray-500 py-1 dark:border-gray-300" +
+                  "hover:(text-yellow-400 dark:text-gray-100) border-gray-500 py-1 dark:border-gray-300" +
                   (menu.href === props.active ? " border-b-2" : "")
                 }
               >
