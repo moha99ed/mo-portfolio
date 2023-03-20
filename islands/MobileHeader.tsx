@@ -43,7 +43,7 @@ export default function MobileHeader(props: Omit<HeaderProps, "sticky">) {
       />
       <div class="absolute top-12 w-full bg-blue-50 dark:bg-gray-700">
         <div
-          class={`divide-y-1 divide-gray-300 overflow-hidden transition-all duration-300 dark:divide-gray-600 ${
+          class={`divide-y-2 divide-blue-400 overflow-hidden transition-all duration-300 dark:divide-gray-600 ${
             checked.value ? "my-4 max-h-64" : "max-h-0"
           }`}
         >

@@ -2,7 +2,7 @@ export const projects = [
 {
     title: "S.M.A.R.T",
     subtitle: "Create SMART Goals",
-    description: "S.M.A.R.T | Designed for high school teachers to create SMART Goals for their classes",
+    description: "S.M.A.R.T | Designed for high school students to create and manage their SMART Goals ",
     image: "/smart.gif",
     link: "https://github.com/moha99ed/S.M.A.R.T"
 },
@@ -12,8 +12,7 @@ export const projects = [
     description: "GameBetter | Online game board to improve cognitive function",
     image: "/gamebetter.gif",
     link: "https://github.com/ARMDK/pfaIteration"
-},
-
+}
 ]
 export   const menu = [
   {name:"About", href:"#about"},
