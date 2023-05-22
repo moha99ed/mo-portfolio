@@ -44,7 +44,7 @@ export const experience = [
       role: "Web Developer",
       company: "Freelance ",
       description: "Created a custom e-commerce platform for a small business client using JavaScript and PostgreSQL, resulting in a 20% increase in online sales within the first quarter of launch.",
-      date: "Apr 2019 - Oct 2022",
+      date: "2017 - 2019",
       image: "/freelance.png"
 
   },
