@@ -8,8 +8,15 @@ export default function About() {
           <h2 className="text-blue-400 mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px] opacity-100">About me</h2>
 
           <p className="text-gray-500 py-6">
-          Welcome to my portfolio website where you can explore my work, skills, and projects. From developing web applications to implementing robust database solutions I have a strong passion for creating innovative solutions that make a difference. My love for web development began when I created my first website using HTML and CSS, and I haven't stopped since. Let's connect and make a difference together!
+            Welcome to my portfolio website! Here, you'll have the opportunity to explore my work, skills, and projects. As a FullStack Developer with over 4 years of experience, I am passionate about creating innovative solutions that have a meaningful impact.
 
+            From developing web applications to implementing robust database solutions, I possess expertise in TypeScript, JavaScript, React, Node.js, and SQL. I am proficient in frameworks such as React.js, Redux, Next.js, and Express.js, and have hands-on experience working with RESTful APIs. My database knowledge spans both NOSQL (MongoDB) and SQL (PostgreSQL) technologies.
+
+            I also have extensive experience with CSS frameworks like Tailwind CSS, Bootstrap, and Material UI, ensuring visually appealing and responsive designs. Version control using Git and build tools like Webpack and Vite are an integral part of my workflow.
+
+            Testing is crucial to me, and I am skilled in using testing tools like Jest, Puppeteer, Enzyme, and SuperTest. Additionally, I have familiarity with containerization technologies such as Docker and cloud platforms like AWS.
+
+            My journey in web development began with creating websites using HTML and CSS, igniting my passion for this field. I am constantly seeking new opportunities to collaborate and make a difference. Let's connect and create something remarkable together!
           </p>
           <a
             className="text-blue-500 flex items-center hover:text-indigo-600 inline-flex items-center"

@@ -24,29 +24,30 @@ export   const menu = [
 export const experience = [
     {
         role: "Software Engineer",
-        company: "Denosoar",
-        description: "Helped launch An open source memory tool for tracking potential memory leaks, and displaying real-time memory statistics in easy-to-read charts.",
-        date: "2022 - Present",
+        company: "OSLabs",
+        description: "Launched An open source memory tool for tracking potential memory leaks, and displaying real-time memory statistics in easy-to-read charts.",
+        date: "Dec 2020 - Present",
         image: "/super-deno.png",
         link: "https://denosoar.deno.dev/about"
 
     },
-    {
-        role: "AP Physics Teacher | Computer Science Mentor",
-        company: "North Star Academy",
-        description: "Designed custom algorithms in JavaScript to facilitate data analysis and perform complex calculations during hands-on experiments conducted by students, enhancing students' understanding of scientific concepts.",
-        date: "2018 - 2022",
-        image: "/northstar.svg"
 
-    },
     {
-        role: "Web Developer",
-        company: "Freelance",
-        description: "Utilized JavaScript and modern web development frameworks like React to create highly-performant websites for clients resulting in a >25% increase in customer engagement and a >15% improvement in user experience optimization.",
-        date: "2019 - 2022",
+        role: "Junior Full Stack Developer ",
+        company: "Valley Health System, NJ ",
+        description: "developed user-friendly web applications using the MERN stack. With expertise in React.js, Node.js, and Express.js, I have built responsive UI components and implemented server-side logic.",
+        date: "Apr 2019 - Oct 2022",
         image: "/freelance.png"
 
     },
+    {
+      role: "Web Developer",
+      company: "Freelance ",
+      description: "Created a custom e-commerce platform for a small business client using JavaScript and PostgreSQL, resulting in a 20% increase in online sales within the first quarter of launch.",
+      date: "Apr 2019 - Oct 2022",
+      image: "/freelance.png"
+
+  },
 ]
 export const skills = [
   {
