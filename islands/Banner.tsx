@@ -19,7 +19,7 @@ export default function Hero() {
       <h1 class="text-3xl font-extrabold sm:text-5xl">
       Hello, My name is 
         <h2 class="font-extrabold text-blue-700 sm:block">
-        Mo Sebbagh.
+        Mohammed Sebbagh.
         </h2>
       </h1>
 
