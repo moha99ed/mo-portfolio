@@ -37,7 +37,7 @@ export const experience = [
         company: "Valley Health System, NJ ",
         description: "developed user-friendly web applications using the MERN stack. With expertise in React.js, Node.js, and Express.js, I have built responsive UI components and implemented server-side logic.",
         date: "Apr 2019 - Oct 2022",
-        image: "/freelance.png"
+        image: "/valley.png"
 
     },
     {
