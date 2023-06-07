@@ -30,15 +30,6 @@ export const experience = [
         image: "/super-deno.png",
         link: "https://denosoar.deno.dev/about"
 
-    },
-
-    {
-  
-
-    },
-    {
-
-
   },
 ]
 export const skills = [
