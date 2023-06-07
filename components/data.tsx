@@ -33,19 +33,11 @@ export const experience = [
     },
 
     {
-        role: "Junior Full Stack Developer ",
-        company: "Valley Health System, NJ ",
-        description: "developed user-friendly web applications using the MERN stack. With expertise in React.js, Node.js, and Express.js, I have built responsive UI components and implemented server-side logic.",
-        date: "Apr 2019 - Oct 2022",
-        image: "/valley.png"
+  
 
     },
     {
-      role: "Web Developer",
-      company: "Freelance ",
-      description: "Created a custom e-commerce platform for a small business client using JavaScript and PostgreSQL, resulting in a 20% increase in online sales within the first quarter of launch.",
-      date: "2017 - 2019",
-      image: "/freelance.png"
+
 
   },
 ]
