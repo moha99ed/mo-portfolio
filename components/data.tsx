@@ -31,6 +31,15 @@ export const experience = [
         link: "https://denosoar.deno.dev/about"
 
   },
+  {
+    role: "Software Engineer",
+    company: "Parallel",
+    description: "Using Next.js, Node.js, Express, Python APIs, and React to develop a salary negotiation AI tool, enhancing users' salary negotiation experiences",
+    date: "July 2023 - Present",
+    image: "/parallel.jpeg",
+    link: "https://www.para.dev"
+
+}
 ]
 export const skills = [
   {
